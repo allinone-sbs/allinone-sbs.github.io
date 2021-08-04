@@ -149,11 +149,11 @@ var U_ID = 0;
                 var plan_id = r[0][i];
                 //alert(plan_id);
                 if(plan_id==0)
-                add_day = 15;
+                add_day = 150;
                 if(plan_id==1)
-                add_day = 20;
+                add_day = 200;
                 if(plan_id==2)
-                add_day = 30;
+                add_day = 300;
 
 
 var today = new Date();
