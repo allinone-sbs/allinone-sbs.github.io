@@ -3,9 +3,7 @@ TRON - IS THE FUTURE OF DECENTRALIZED FINANCE
 
 Website: https://trxstake.github.io
 
-Dapp: https://trxstake.github.io/?ref=1
-
-Telegram: https://t.me/joinchat/2gzj0yE7U18yNzRl
+Telegram: https://t.me/trxstakeofficial
 
 Contract Address - TPUe35qTJMfo8yni4nTh35pP7bHz4iAioa
 
