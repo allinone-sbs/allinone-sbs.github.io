@@ -2,9 +2,9 @@
 
 Dailly ROI 1.5 %
 
-minimum investemwnt : $50
+minimum investement : $50
 
-No minimum to withdrawl
+No minimum to withdraw
 
 Real registered company
 
