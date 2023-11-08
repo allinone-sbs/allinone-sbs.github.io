@@ -3,7 +3,7 @@
 <p>MATRIXPRO Earn 600 BNB from 3 BNB</p>
 <p>Backup Web: <a href="https://allinone-sbs.github.io">https://allinone-sbs.github.io</a>
 
-Web3 (BSC): <a href="https://matrixpro.vip/signup?referralid=1">https://matrixpro.vip/signup?referralid=1</a><br />
+Web3 (BSC): <a href="https://matrixpro.vip/signup">https://matrixpro.vip/signup?referralid=1</a><br />
 
 <p>To earn 300 BNB from 3 BNB with Matrix Pro smart contract.</p>
 
