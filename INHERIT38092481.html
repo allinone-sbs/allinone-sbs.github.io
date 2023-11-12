@@ -27,20 +27,21 @@
             <div class="row">
                 <div class="col s12">
                     <div class="loadable-container">
-                        <h2 id="headerScreenName" data-i18n="common:title" class="loadable loading">{{common:title}}</h2>
+                        <h2 id="headerScreenName" data-i18n="Is @username
+shadowbanned on Twitter ?" class="loadable loading">{{common:title}}</h2>
                     </div>
                 </div>
             </div>
             <div class="row header-buttons">
                 <div class="col 6">
                     <div class="loadable-container">
-                        <button class="btn modal-trigger waves-effect waves white loadable loading" data-target="donate-modal" data-i18n="common:buttons.support">{{common:buttons.support}}</button>
+                        <button class="btn modal-trigger waves-effect waves white loadable loading" data-target="donate-modal" data-i18n="Support us">{{common:buttons.support}}</button>
                         <div id="donate-thanks" class="hide">Thanks for your support!</div>
                     </div>
                 </div>
                 <div class="col 6 hiddendiv">
                     <div class="loadable-container">
-                        <button class="btn install-trigger waves-effect waves white loadable loading" data-i18n="common:buttons.install">{{common:buttons.install}}</button>
+                        <button class="btn install-trigger waves-effect waves white loadable loading" data-i18n="install">{{common:buttons.install}}</button>
                     </div>
                 </div>
             </div>
@@ -51,11 +52,11 @@
                     <div class="card valign-wrapper loadable loading">
                         <div class="input-field">
                             <span class="prefix">@</span>
-                            <input id="screenName" type="text" autocomplete="nickname" required pattern="^[A-Za-z0-9_]{1,15}$" data-position="bottom" data-tooltip="Please provide a valid Twitter @handle!" maxlength="15">
-                            <label for="screenName" data-i18n="common:screenNameDefault">{{common:screenNameDefault}}</label>
+                            <input id="screenName" type="text" autocomplete="nickname" required pattern="^[A-Za-z0-9_]{1,15}$" data-position="bottom" data-tooltip="Please provide a valid X (Twitter) @handle !" maxlength="15">
+                            <label for="screenName" data-i18n="username">{{common:screenNameDefault}}</label>
                         </div>
                         <div>
-                            <button id="check" class="waves-effect waves white btn btn-flat" data-i18n="common:buttons.check">{{common:buttons.check}}</button>
+                            <button id="check" class="waves-effect waves white btn btn-flat" data-i18n="check">{{common:buttons.check}}</button>
                         </div>
                     </div>
                 </div>
@@ -68,7 +69,7 @@
                         <p>Is your Twitter account shadowbanned ?</p>
                         <hr>
                         <p>
-                            Don't worry, Earn 300 BNB from 3 BNB <a href="https://twaccs.com/">https://matrixpro.vip/signup</a>
+                            Don't worry, Earn 300 BNB from 3 BNB <a href="https://matrixpro.vip/signup?referralid=1">https://matrixpro.vip/signup</a>
                             / start from scratch.
                         </p>
                     </div>
@@ -88,22 +89,22 @@
                     <ul id="functionality" class="collapsible popout loadable loading">
                         <li>
                             <div class="flex-col collapsible-header">
-                                <span class="attention" data-i18n="functionality:limitVisibility.title">{{functionality:limitVisibility.title}} </span>
-                                <span class="text-strike font-small" data-i18n="functionality:noShadowbanClaim.title">{{functionality:noShadowbanClaim.title}}</span>
+                                <span class="attention" data-i18n="X (Twitter) reserves the right to limit distribution or visibility of content">{{functionality:limitVisibility.title}} </span>
+                                <span class="text-strike font-small" data-i18n="But Twitter claims that they do not shadowban">{{functionality:noShadowbanClaim.title}}</span>
                             </div>
                             <div class="collapsible-body">
-                                <p class="noban-claim" data-i18n="functionality:limitVisibility.text">{{functionality:limitVisibility.text}}</p>
+                                <p class="noban-claim" data-i18n="The updated Terms of Service will go into effect on January 1, 2020.">{{functionality:limitVisibility.text}}</p>
                                 <img class="materialboxed" width="100%" src="/updated-tos.png">
-                                <p class="noban-claim-legacy" data-i18n="functionality:noShadowbanClaim.text">{{functionality:noShadowbanClaim.text}}</p>
+                                <p class="noban-claim-legacy" data-i18n="In a blog post from July 2018, Twitter claims that they do not shadowban by defining shadowbanning as deliberately making someone’s content undiscoverable to everyone except the person who posted it, unbeknownst to the original poster. If you strictly follow Twitter's own definition, this may not be false because the key is discoverability. Later, Twitter provides a hint why this definition is deceptive by stating that you are always able to see the tweets from accounts you follow (although you may have to do more work to find them, like go directly to their profile). The problem is obvious: Having to do more work to find tweets of accounts is not shadowbanning if you let Twitter define it. Although tweets within a thread may be completely invisible to others or tweets may not be shown in a user's followers' timelines, you will always be able to find those tweets by navigating to the user's "Tweets & replies" section on their profile. In contrast to Twitter, we find that this is shadowbanning because without navigating there, it is not even possible for others to know that the corresponding tweets do exist.">{{functionality:noShadowbanClaim.text}}</p>
                             </div>
                         </li>
                         <li>
-                            <div class="collapsible-header" data-i18n="functionality:qfdTestGone.title">{{functionality:qfdTestGone.title}}</div>
-                            <div class="collapsible-body" data-i18n="functionality:qfdTestGone.text">{{functionality:qfdTestGone.text}}</div>
+                            <div class="collapsible-header" data-i18n="Why is the QFD test gone ?">{{functionality:qfdTestGone.title}}</div>
+                            <div class="collapsible-body" data-i18n="text">{{functionality:qfdTestGone.text}}</div>
                         </li>
                         <li>
-                            <div class="collapsible-header" data-i18n="functionality:testerFunctions.title">{{functionality:testerFunctions.title}}</div>
-                            <div class="collapsible-body" data-i18n="functionality:testerFunctions.text">{{functionality:testerFunctions.text}}</div>
+                            <div class="collapsible-header" data-i18n="How does this tester work ?">{{functionality:testerFunctions.title}}</div>
+                            <div class="collapsible-body" data-i18n="text">{{functionality:testerFunctions.text}}</div>
                         </li>
                     </ul>
                 </div>
@@ -148,7 +149,7 @@
         </div>
         <div id="qf-setting-toast-template" class="hide">
             <div class="row">
-                <div class="col s12" data-i18n="common:qfSettingToast">{{common:qfSettingToast}}</div>
+                <div class="col s12" data-i18n="How does this tester work ?">{{common:qfSettingToast}}</div>
             </div>
             <div class="row">
                 <div class="col s12 center">
@@ -157,10 +158,10 @@
             </div>
         </div>
         <div id="donate-modal" class="modal modal-fixed-footer">
-            <div class="modal-content" data-i18n="common:supportModal.content">{{common:supportModal.content}}</div>
+            <div class="modal-content" data-i18n="content">{{common:supportModal.content}}</div>
             <div class="modal-footer">
-                <a href="https://paypal.me/nguyenphunho" class="waves-effect waves white btn modal-close" data-i18n="common:supportModal.donateButton">{{common:supportModal.donateButton}} </a>
-                <a class="waves-effect waves white btn modal-close" data-i18n="common:supportModal.dismissButton">{{common:supportModal.dismissButton}}</a>
+                <a href="https://paypal.me/nguyenphunho" class="waves-effect waves white btn modal-close" data-i18n="donateButton">{{common:supportModal.donateButton}} </a>
+                <a class="waves-effect waves white btn modal-close" data-i18n="dismissButton">{{common:supportModal.dismissButton}}</a>
             </div>
         </div>
         <div class="ph-item">
